@@ -1,0 +1,33 @@
+h1{
+    color:rgba(19, 22, 207, 0.829);
+    background: rgb(146, 161, 207);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 5px;
+    border-radius: 14px;
+}
+div{
+    background: rgb(150, 163, 233);
+    border-radius: 14px;
+    padding: 4%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+p.p1{
+    
+    text-align: justify;
+    color: rgba(232, 230, 236, 0.932);
+    font-size: 14px;
+    font-family:cursive;}
+
+p.p11{
+    
+    text-align: justify;
+    color: rgba(232, 230, 236, 0.932);
+    font-size: 14px;
+    font-family:cursive;}
+
+body{
+    background:rgb(28, 28, 29)
+}
