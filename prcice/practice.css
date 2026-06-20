@@ -222,32 +222,63 @@ left:20px;
 .hero  {
    background-image:url('https://m.media-amazon.com/images/I/71qcoYgEhzL._SX3000_.jpg');
    background-size: cover;
-   height:170px;
-   
-   
-    
+   height:190px;
+   text-align: justify;  
 }
 
 .note1{
     
-    height:20px;
-    font-size:12px;
-    justify-content: center;
-    align-items: center;
-    position:relative;
-    top:120px;
-    width:755px;
-    left:9px;
+    height:15px;
+    font-size:8px;
+    width:620px;
+    position:absolute;
+    left:12px;
+    padding-left:130px;
+    padding-top:5px;  
+    bottom:148px;
     color:black;
+    background-color: white;
 }
    
+
+.note1 a{
+    color:blue;
+    text-decoration: none;
+
+  
+}
+
+
+.shopping{
+    justify-content: space-evenly;
+    display: flex;
+    position: relative;
+    bottom:15px;
    
 }
-
-
-.hero{
-    color:black;
+.shop{
+    border: 2px solid black;
+    height:200px;
+    width:22%;
+    background-size:auto;
+    background-color: white;
+    color: black;
+    padding:20px 0px 15px;
+    font-size:15px;
+    font-weight:600;
 }
 
 
+.shop1{
+    
+    background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2026/Gaming_26/Fuji_Gaming_SingleImageCard_C-1._SY304_CB762596570_.jpg');
+    background-repeat: no-repeat;
+    background-size:200px;
+    
+}
 
+.shop1 i{
+    margin:50px;
+   
+}
+    
