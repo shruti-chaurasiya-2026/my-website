@@ -1,9 +1,8 @@
 *{
-    border:border-box;
+    box-sizing:border-box;
     margin:0;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
-   
 }
 .navbar{
     background:black;
@@ -82,9 +81,10 @@ left:20px;
 
 .search-input{
     width:100%;
-    font-size:1 rem;
+    font-size:1rem;
     font-family: Arial, Helvetica, sans-serif;
-    border:none;}
+    border:none;
+}
 
 .search-icon{
     background:rgb(236, 194, 102);
@@ -96,18 +96,26 @@ left:20px;
     align-items:center;}
 
 .lang{
-    height:25px;
-    width:50px;
+    min-width:70px;
+    height:30px;
     color:white;
     background:black;
     display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:4px;
+    padding:0 6px;
     position:relative;
     left:40px;
     text-align:center;
-    
     border-radius:4px;
-    font-size: 20px;
+    font-size: 16px;
+}
 
+.lang img {
+    width:auto;
+    height:18px;
+    display:block;
 }
 
 .country{
@@ -118,7 +126,8 @@ left:20px;
     border-bottom-left-radius:4px;
     text-align:center;
     border:none;
-    font-family: Arial, Helvetica, sans-serif;}
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 
@@ -232,9 +241,11 @@ left:20px;
     font-size:8px;
     width:620px;
     position:absolute;
-    left:12px;
-    padding-left:130px;
-    padding-top:5px;  
+    text-align: center;
+    justify-content: center;
+    left:75px;
+    padding-left:0px;
+    padding-top:3px;  
     bottom:148px;
     color:black;
     background-color: white;
@@ -252,9 +263,9 @@ left:20px;
 .shopping{
     justify-content: space-evenly;
     display: flex;
+    color: black;
     position: relative;
     bottom:15px;
-   
 }
 .shop{
     border: 2px solid black;
@@ -262,23 +273,70 @@ left:20px;
     width:22%;
     background-size:auto;
     background-color: white;
-    color: black;
-    padding:20px 0px 15px;
-    font-size:15px;
+    color:black;
+    padding:20px 5px 15px;
+    font-size:7px;
     font-weight:600;
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    text-align:left;
+    flex-direction:column;
 }
 
 
 .shop1{
-    
     background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2026/Gaming_26/Fuji_Gaming_SingleImageCard_C-1._SY304_CB762596570_.jpg');
     background-repeat: no-repeat;
-    background-size:200px;
+    background-size: 90% auto;
+    background-position: center center;
+    background-color: white;
+    color:black;
+    
     
 }
 
-.shop1 i{
-    margin:50px;
-   
+
+/* Ensure text inside shopping area is black */
+.shopping, .shop {
+    color: black;
 }
-    
+
+.shopping h1,
+.shopping a,
+.shopping p,
+.shopping span {
+    color: black;
+}
+
+.shopping a{
+    font-size:8px;
+    position:absolute;
+    bottom:8px;
+    color: blue;
+    text-decoration: none;
+    font-weight: 400;
+
+}
+
+.shop2{
+    background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/img18/home/2023/Q2/Homepage/2023Q2_GW_EE_AccentFurniture_D_Quad_186x116._SY116_CB594237035_.jpg');
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+    background-position: center center;
+    background-color: white;
+    color:black;  
+}
+
+
+.shop3{
+    background-image: url('https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tZSUyMGRlY29yfGVufDB8MnwwfHx8MA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-color: white;
+    color:black;  
+}
+
+
+
